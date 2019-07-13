@@ -1,0 +1,187 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="TURNOS.PaginaMaestra" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sistema de Gestion de Turnos</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--
+Template 2042 The Block
+http://www.tooplate.com/view/2042-the-block
+-->
+<link href="css/tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+    var flashvars = {};
+    flashvars.xml_file = "photo_list.xml";
+    var params = {};
+    params.wmode = "transparent";
+    var attributes = {};
+    attributes.id = "slider";
+    swfobject.embedSWF("flash_slider.swf", "flash_grid_slider", "780", "210", "9.0.0", false, flashvars, params, attributes);
+</script>
+        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        .auto-style1 {
+            height: 47px;
+        }
+        .auto-style2 {
+            color: #FFFFFF;
+        }
+    p.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+p.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+p.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+        .auto-style6 {
+            height: 54px;
+        }
+        .auto-style7 {
+            text-align: center;
+            height: 92px;
+        }
+        .auto-style8 {
+            text-align: center;
+            height: 21px;
+        }
+        .auto-style9 {
+            text-align: justify;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+<div id="tooplate_wrapper">
+
+	<div id="tooplate_header" class="auto-style6">
+        <div id="site_title" class="auto-style1">
+            <div>
+                <h1 class="auto-style2">&nbsp;</h1>
+                <h1 class="auto-style2">SISTEMA DE TURNOS</h1>
+            </div>
+            </div>
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="index.aspx" class="current">HOME</a></li>
+                <%--<li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>--%>
+                <li><a href="Cliente.aspx">CLIENTE</a></li>             
+                <li><a href="Turno.aspx">TURNO</a></li>
+            </ul>    	
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- end of forever header -->
+    
+
+    <div id="tooplate_middle" class="auto-style7" >
+            <h2 class="auto-style8"><strong>BIENVENIDO AL SISTEMA DE GESTION DE TURNOS</strong></h2>
+
+           
+            <div class="MsoNormal">
+
+           
+        <asp:Table ID="Table3" runat="server" CssClass="MsoNormal">
+        <asp:TableFooterRow>
+            <asp:TableHeaderCell>
+                <img src="images/turno.gif" alt="image" width="150" />
+            </asp:TableHeaderCell>
+
+            <asp:TableHeaderCell>
+                <p>
+                    INSTRUCCIONES:
+                    <br />
+                    El sistema de turnos de encuentra desarrollado para asignarle un turno de la manera más eficaz y pueda ser atendido con rapidez
+                    <br />
+                    1.	Verificar si se encuentra en la lista de nuestros clientes, en el caso de no estar en la lista debe ingresar datos básicos, en el siguiente botón 
+                    <br />
+                    2.	Una verificado si es nuestro cliente debe ingresar y solicitar su turno en el siguiente botón
+
+                </p>
+            </asp:TableHeaderCell>
+          
+        </asp:TableFooterRow>
+
+
+    </asp:Table>
+
+
+            </div>
+
+
+    </div> <!-- end of middle -->
+    
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+
+        
+
+     </asp:ContentPlaceHolder>
+
+
+      
+    <div id="tooplate_footer">
+    	Copyright © 2048 Sistema de Gestión de Turnos rnos <div class="cleaner"></div>
+	</div>
+
+</div> <!-- end of wrapper -->
+
+    </form>
+
+</body>
+</html>
+
+
+
+<%--<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>--%>

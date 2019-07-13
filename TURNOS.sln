@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TURNOS", "TURNOS\TURNOS.csproj", "{FEA6CB9F-C5E0-4216-A54F-4CA7A8ADCD40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8} = {8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33} = {5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}
+		{077FC3FD-A7DD-44E3-82D0-1270F1073201} = {077FC3FD-A7DD-44E3-82D0-1270F1073201}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8} = {8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadNegocio", "EntidadNegocio\EntidadNegocio.csproj", "{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{077FC3FD-A7DD-44E3-82D0-1270F1073201}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8} = {8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33} = {5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA6CB9F-C5E0-4216-A54F-4CA7A8ADCD40}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA6CB9F-C5E0-4216-A54F-4CA7A8ADCD40}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FEA6CB9F-C5E0-4216-A54F-4CA7A8ADCD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA6CB9F-C5E0-4216-A54F-4CA7A8ADCD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5767B2F0-282C-4D2E-84C0-E30DCE2D6A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F25E6AC-145B-4481-AB54-77AB5DB9BCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077FC3FD-A7DD-44E3-82D0-1270F1073201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077FC3FD-A7DD-44E3-82D0-1270F1073201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077FC3FD-A7DD-44E3-82D0-1270F1073201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077FC3FD-A7DD-44E3-82D0-1270F1073201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
